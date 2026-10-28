@@ -1,0 +1,12 @@
+[project]
+name = "open-tally"
+version = "0.1.0"
+description = "Learning project: tamper-evident, publicly checkable election result tools"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = [
+    "stretch: optional extra-credit exercise",
+]
